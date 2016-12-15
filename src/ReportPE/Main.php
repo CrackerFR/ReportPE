@@ -25,7 +25,10 @@ class Main extends PluginBase implements Listener{
     public function onDisable(){
         $this->getLogger()->info(TextFormat::BLUE . "CustomSay disabled.");
     }
-
+	
+    public function onCommand(CommandSender $sender, Command $command, $label, array $args){
+        switch($command->getName()){
+			
             case "report":
 		 $name = \strtolower(\array_shift($args));
                     $player = $sender->getServer()->getPlayer($name);
