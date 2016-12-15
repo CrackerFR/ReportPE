@@ -23,7 +23,7 @@ class Main extends PluginBase implements Listener{
     }
     
     public function onDisable(){
-        $this->getLogger()->info(TextFormat::BLUE . "CustomSay disabled.");
+        $this->getLogger()->info(TextFormat::RED . "ReportPE disabled.");
     }
 	
     public function onCommand(CommandSender $sender, Command $command, $label, array $args){
