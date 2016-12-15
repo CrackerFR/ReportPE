@@ -1,0 +1,13 @@
+name: ReportPE
+main: ReportPE\Main
+api: 2.1.0
+description: Add /report command, for cheater.
+version: 1.0.0
+author: CookieCode
+commands:
+    report:
+        description: Report
+Command
+permission:
+    report.report.view:
+        default: op
