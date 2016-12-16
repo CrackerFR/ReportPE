@@ -8,6 +8,6 @@ commands:
     report:
         description: Report
 Command
-permission:
+permissions:
     report.report.view:
         default: op
