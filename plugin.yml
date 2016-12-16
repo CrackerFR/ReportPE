@@ -7,7 +7,6 @@ author: CookieCode
 commands:
     report:
         description: Report
-Command
 permission:
     report.report.view:
         default: op
