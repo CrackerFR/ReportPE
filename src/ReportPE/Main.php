@@ -6,6 +6,7 @@ use pocketmine\command\CommandSender;
 use pocketmine\command\CommandExecutor;
 use pocketmine\event\Listener;
 use pocketmine\Player;
+use pocketmine\plugin\PluginDescription;
 use pocketmine\plugin\PluginBase;
 use pocketmine\Server;
 use pocketmine\utils\TextFormat;
